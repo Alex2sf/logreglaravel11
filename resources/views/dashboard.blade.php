@@ -64,12 +64,13 @@
 
     <!-- Sidebar -->
     <div class="sidebar">
-        <a href="#">Dashboard</a>
+        <a href="{{ route('admin.products.index') }}">Dashboard</a>
         <a href="#">Users</a>
         <a href="#">Products</a>
         <a href="#">Orders</a>
         <a href="#">Settings</a>
     </div>
+
 
     <!-- Content -->
     <div class="content">
